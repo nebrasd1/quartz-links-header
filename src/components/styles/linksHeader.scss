@@ -1,0 +1,23 @@
+#links-header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 0.5rem;
+
+  span {
+    font-weight: 600;
+
+    a {
+      text-decoration: none;
+      color: var(--darkgray);
+      transition: color 0.2s ease;
+
+      &:hover {
+        color: var(--secondary);
+      }
+    }
+  }
+}
