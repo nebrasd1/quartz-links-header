@@ -3758,18 +3758,23 @@ var LinksHeader = () => {
   const Component = (_props) => {
     return /* @__PURE__ */ u2("div", { children: [
       /* @__PURE__ */ u2("div", { id: "links-header", children: [
-        /* @__PURE__ */ u2("span", { children: /* @__PURE__ */ u2("a", { href: "/Output/Things-I-Found/", children: "\u{1F336}\uFE0F Things I Found" }) }),
-        /* @__PURE__ */ u2("span", { children: /* @__PURE__ */ u2("a", { href: "/Output/Writings/", children: "\u{1F331} Writings" }) }),
-        /* @__PURE__ */ u2("span", { children: /* @__PURE__ */ u2("a", { href: "/Information/Lenses/", children: "\u{1F50D} Lenses" }) }),
-        /* @__PURE__ */ u2("span", { children: /* @__PURE__ */ u2("a", { href: "/Information/Questions/", children: "\u2753 Questions" }) }),
-        /* @__PURE__ */ u2("span", { children: /* @__PURE__ */ u2("a", { href: "/Information/References/", children: "\u{1F5C2}\uFE0F References" }) }),
-        /* @__PURE__ */ u2("span", { children: /* @__PURE__ */ u2("a", { href: "/Meta/Mistakes/", children: "\u{1F4DD} Mistakes" }) })
+        /* @__PURE__ */ u2("span", { children: /* @__PURE__ */ u2("a", { href: "/output/things_i_found/", children: "\u{1F336}\uFE0F Things I Found" }) }),
+        /* @__PURE__ */ u2("span", { children: /* @__PURE__ */ u2("a", { href: "/output/writings/", children: "\u{1F331} Writings" }) }),
+        /* @__PURE__ */ u2("span", { children: /* @__PURE__ */ u2("a", { href: "/information/lenses/", children: "\u{1F50D} Lenses" }) }),
+        /* @__PURE__ */ u2("span", { children: /* @__PURE__ */ u2("a", { href: "/information/questions/", children: "\u2753 Questions" }) }),
+        /* @__PURE__ */ u2("span", { children: /* @__PURE__ */ u2("a", { href: "/information/references/", children: "\u{1F5C2}\uFE0F References" }) }),
+        /* @__PURE__ */ u2("span", { children: /* @__PURE__ */ u2("a", { href: "/site-meta/mistakes", children: "\u{1F4DD} Mistakes" }) })
       ] }),
-      /* @__PURE__ */ u2("hr", { style: {
-        backgroundColor: "var(--gray)",
-        borderTop: "1px var(--gray) solid",
-        marginTop: "1.3rem"
-      } })
+      /* @__PURE__ */ u2(
+        "hr",
+        {
+          style: {
+            backgroundColor: "var(--gray)",
+            borderTop: "1px var(--gray) solid",
+            marginTop: "1.3rem"
+          }
+        }
+      )
     ] });
   };
   Component.css = linksHeader_default;
