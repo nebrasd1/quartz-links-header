@@ -1,12 +1,5 @@
-import { QuartzComponent, QuartzComponentConstructor } from '@quartz-community/types';
-
-interface ExampleComponentOptions {
-    prefix?: string;
-    suffix?: string;
-    className?: string;
-}
-declare const _default: (opts?: ExampleComponentOptions) => QuartzComponent;
+import { QuartzComponentConstructor } from '@quartz-community/types';
 
 declare const LinksHeader: QuartzComponentConstructor;
 
-export { _default as ExampleComponent, type ExampleComponentOptions, LinksHeader };
+export { LinksHeader };

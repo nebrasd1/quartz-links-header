@@ -114,11 +114,6 @@
       }
     },
     "components": {
-      "ExampleComponent": {
-        "displayName": "Example Component",
-        "defaultPosition": "right",
-        "defaultPriority": 50
-      },
       "LinksHeader": {
         "displayName": "Links Header",
         "defaultPosition": "beforeBody",

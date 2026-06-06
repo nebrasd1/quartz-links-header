@@ -1,7 +1,6 @@
 export { ExampleTransformer } from "./transformer";
 export { ExampleFilter } from "./filter";
 export { ExampleEmitter } from "./emitter";
-export { default as ExampleComponent } from "./components/ExampleComponent";
 export { default as LinksHeader } from "./components/LinksHeader";
 
 export type {
