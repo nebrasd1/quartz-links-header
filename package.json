@@ -117,7 +117,7 @@
       "LinksHeader": {
         "displayName": "Links Header",
         "defaultPosition": "beforeBody",
-        "defaultPriority": 100
+        "defaultPriority": 1
       }
     }
   },
